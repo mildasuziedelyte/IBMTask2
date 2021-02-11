@@ -1,0 +1,47 @@
+.single-page-container {
+    margin-top: 50px;
+display: grid;
+grid-template-columns: 1fr;
+
+}
+iframe {
+    margin: 0 auto;
+    width: 100%;
+    height: 500px;
+    min-height: 270px;
+    max-height: 450px;
+}
+
+
+
+.video-about {
+    #description {
+        display: none;
+    }
+}
+
+
+@media(min-width:768px) {
+    .single-page-container {
+        grid-template-columns: 70% 25%;
+        gap: 5%;
+    }
+
+
+.video-about {
+    #see-more{
+        display: none;
+    }
+    #description {
+        display: block !important;
+    }
+}
+}
+.single-card-box {
+    min-height: 80px;
+}
+.back-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
