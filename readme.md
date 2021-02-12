@@ -3,9 +3,9 @@ First of all let me thank you for checking my project and spending your time for
 
 # Description 
 
-My task was to build am application based on YouTube API. User should be able to see optimal layout, depending on their device size and get a full experience on both wide screens and mobile devices.
-User is able to search for a video title and see results. Clicking on selected video opens a page with selected video and videos related to it on the right side. Furthermore, search results (as well as, sidebar results) are implemted with infinite scroll. However, due to strict YouTube API restrictions and quatas for API usage, app allows to get maximum of 50 images. Therefore, application is loading 8 images at the time, instead of 20 as per task.
-Lastly, user actions on UI a recorded in the back end (searched keywords and videos user clicked).
+My task was to build an application based on YouTube API. User should be able to see optimal layout, depending on their device size and get a full experience on both wide screens and mobile devices.
+User is able to search for a video title and see results. Clicking on selected video opens a page with selected video and videos related to it on the right side. Furthermore, search results (as well as, sidebar results) are implemted with infinite scroll. However, due to strict YouTube API restrictions and quatas for API usage, app allows to get maximum of 50 images. Therefore, application is loading 8 images at the time, instead of 20 as per task, however it would be extremely easy to change number of images loading per request in React Component.
+Lastly, user actions on UI a recorded in the back end using Atlas MongoDB (searched keywords and videos user clicked).
 
 # Technologies
 
